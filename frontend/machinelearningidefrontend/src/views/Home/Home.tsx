@@ -6,7 +6,7 @@ export interface IHomeProps {
 export default function Home (props: IHomeProps) {
   return (
     <div>
-      Test
+      Test3
     </div>
   );
 }
