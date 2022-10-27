@@ -1,0 +1,23 @@
+{
+  "name": "machinelearningide",
+  "version": "1.0.0",
+  "description": "Runs the front and backend of the machine learning ide",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend/machinelearningidefrontend && npm start",
+    "backend": "cd backend/machinelearningidebackend && call envinstall.bat && python app.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron777collins/MachineLearningIDE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaron777collins/MachineLearningIDE/issues"
+  },
+  "homepage": "https://github.com/aaron777collins/MachineLearningIDE#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

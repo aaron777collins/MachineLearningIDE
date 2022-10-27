@@ -7,4 +7,5 @@ EXPOSE 3000
 RUN npm install
 RUN npm install react-scripts -g
 COPY machinelearningidefrontend/. .
+RUN npm install serve
 CMD ["npm", "start"]
